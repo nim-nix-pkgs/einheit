@@ -11,7 +11,6 @@
   inputs.src-einheit-master.ref   = "refs/heads/master";
   inputs.src-einheit-master.owner = "jyapayne";
   inputs.src-einheit-master.repo  = "einheit";
-  inputs.src-einheit-master.dir   = "";
   inputs.src-einheit-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
