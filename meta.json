@@ -7,8 +7,38 @@
   "license": "MIT",
   "web": "https://github.com/jyapayne/einheit",
   "refs": [
-    "fatal: unable to access 'https://github.com/jyapayne/einheit/': Could not resolve host: github.com",
+    "refs/heads/adding_single_assert",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "einheit",
+      "version": "0.2.0",
+      "author": "Joey Payne",
+      "desc": "Tool for providing unit tests. Einheit is German for Unit.",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 0.18.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.18.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
